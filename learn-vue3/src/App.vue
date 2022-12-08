@@ -3,7 +3,13 @@
 </template>
 
 <script>
-export default {};
+import {} from 'vue';
+
+export default {
+	setup() {
+		return {};
+	},
+};
 </script>
 
 <style></style>
