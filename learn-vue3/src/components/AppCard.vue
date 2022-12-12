@@ -7,6 +7,7 @@
 			<p class="card-text">
 				{{ contents }}
 			</p>
+			<input type="text" value="test" :disabled="disabled" />
 			<a href="#" class="btn" :class="isLikeClass" @click="toggleLike"
 				>좋아요</a
 			>
@@ -41,6 +42,7 @@ export default {
 			type: Object,
 			default: () => {},
 		},
+		disabled: Boolean,
 	},
 	emits: ['toggleLike'],
 	setup(props, context) {

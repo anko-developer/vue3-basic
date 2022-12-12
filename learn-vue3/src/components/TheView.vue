@@ -9,6 +9,7 @@
 						:type="post.type"
 						:isLike="post.isLike"
 						@toggle-like="post.isLike = !post.isLike"
+						disabled
 					></AppCard>
 					<button @click="post.isLike = !post.isLike">toogle</button>
 				</div>
