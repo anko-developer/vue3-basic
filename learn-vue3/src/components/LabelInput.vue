@@ -1,10 +1,8 @@
 <template>
-	<label>
+	<label class="form-label">
 		{{ label }}
-		<input v-model="value" type="text" />
-		<!-- :value="modelValue"
-			@input="event => $emit('update:modelValue', event.target.value)" -->
 	</label>
+	<input v-model="value" class="form-control" v-bind="$attrs" type="text" />
 </template>
 
 <script>
