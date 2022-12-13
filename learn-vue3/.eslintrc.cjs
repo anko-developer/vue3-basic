@@ -3,6 +3,11 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
 	root: true,
+	parserOptions: {
+		parser: 'espree',
+		ecmaVersion: 2022,
+		sourceType: 'module',
+	},
 	extends: [
 		'plugin:vue/vue3-essential',
 		'eslint:recommended',
@@ -15,6 +20,7 @@ module.exports = {
 		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'no-unused-vars': 'off',
+		'vue/no-v-model-argument': 'off',
 		'prettier/prettier': [
 			'error',
 			{
