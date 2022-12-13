@@ -1,5 +1,5 @@
-# Vue.js 3 완벽 마스터: 기초
+# Vue.js 3 완벽 마스터: 기초, 실전
 
 <code>
-basic start();
+vue3 start();
 </code>
