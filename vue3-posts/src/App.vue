@@ -8,7 +8,7 @@ import TheHeader from '@/layouts/TheHeader.vue';
 import TheView from '@/layouts/TheView.vue';
 </script>
 <script>
-document.documentElement.setAttribute('color-theme', 'dark');
+// document.documentElement.setAttribute('color-theme', 'dark');
 </script>
 
 <style>
