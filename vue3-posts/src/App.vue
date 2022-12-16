@@ -1,30 +1,15 @@
 <template>
 	<TheHeader></TheHeader>
 	<TheView></TheView>
+	<div style="background-color: #000">
+		<SvgIcon name="logo" color="#fff"></SvgIcon>
+	</div>
 </template>
 
 <script setup>
 import TheHeader from '@/layouts/TheHeader.vue';
 import TheView from '@/layouts/TheView.vue';
-</script>
-<script>
-// document.documentElement.setAttribute('color-theme', 'dark');
+import SvgIcon from './components/SvgIcon.vue';
 </script>
 
-<style>
-:root {
-	--background: #fff;
-	--fontColor: #000;
-}
-
-:root[color-theme='dark'] {
-	--background: #000;
-	--bs-card-bg: #000;
-	--fontColor: #fff;
-}
-
-body {
-	color: var(--fontColor);
-	background-color: var(--background);
-}
-</style>
+<style></style>

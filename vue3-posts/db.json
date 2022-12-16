@@ -1,11 +1,6 @@
 {
   "posts": [
     {
-      "title": "zizizi@",
-      "content": "캬캬캬캬",
-      "id": 10
-    },
-    {
       "title": "ㅇㅇㅇ",
       "content": "ㅁㅁㅁㅁ",
       "createdAt": 1671090798894,
@@ -19,9 +14,15 @@
     },
     {
       "title": "ㅇㅇㅇ",
-      "content": "ㅇㅇㅇㅇㅇ",
+      "content": "ㅇㅇㅇㅇㅇasdddd",
       "createdAt": 1671092272293,
       "id": 13
+    },
+    {
+      "title": "홀리",
+      "content": "쉿",
+      "createdAt": 1671177113240,
+      "id": 14
     }
   ]
 }

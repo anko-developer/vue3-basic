@@ -12,8 +12,12 @@ function createPost(data) {
 	return posts.post('', data);
 }
 
+// function updatePost(id, data) {
+// 	return posts.put(`/${id}`, data);
+// }
+
 function updatePost(id, data) {
-	return posts.put(`/${id}`, data);
+	return posts.patch(`/${id}`, data);
 }
 
 function deletePost(id) {
