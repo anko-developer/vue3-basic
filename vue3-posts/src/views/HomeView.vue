@@ -1,4 +1,9 @@
 <template>
+	<div class="row">
+		<div class="col">테스트1</div>
+		<div class="col-8">테스트2</div>
+		<div class="col-auto">테스트3asdasdasdasd</div>
+	</div>
 	<div>
 		<h2>Home view</h2>
 		<p>{{ $route.path }}</p>
