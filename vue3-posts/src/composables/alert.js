@@ -1,7 +1,7 @@
 import { ref } from 'vue';
 
 const alerts = ref([]);
-export default function useAlert() {
+export const useAlert = () => {
 	// const alerts = ref([]);
 	const vAlert = (message, type = 'error') => {
 		alerts.value.push({ message, type });
@@ -16,4 +16,4 @@ export default function useAlert() {
 		vAlert,
 		vSuccess,
 	};
-}
+};
