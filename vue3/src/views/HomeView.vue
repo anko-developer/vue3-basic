@@ -11,7 +11,10 @@ import { useRouter } from 'vue-router';
 
 const router = useRouter();
 const goAbout = () => {
-	router.push('/about');
+	// router.push('/about');
+	router.push({
+		name: 'About',
+	});
 };
 </script>
 
